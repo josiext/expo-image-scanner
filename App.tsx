@@ -10,7 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Image Scanner</Text>
       <StatusBar style="auto" />
-      <ImageScanner />
+      <ImageScanner name="hola" />
     </View>
   );
 }
@@ -18,7 +18,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "red",
     alignItems: "center",
     justifyContent: "center",
   },
