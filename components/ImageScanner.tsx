@@ -1,9 +1,9 @@
 "use dom";
 
-export default function DOMComponent({ name }: { name: string }) {
+export default function DOMComponent() {
   return (
-    <div style={{ backgroundColor: "black" }}>
-      <h1>Hellosadfasd, {name}</h1>
+    <div>
+      <h1>Hello</h1>
     </div>
   );
 }
