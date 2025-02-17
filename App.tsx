@@ -12,7 +12,7 @@ export default function App() {
           width: "100%",
         }}
       >
-        <ImageScanner dom={{ scrollEnabled: false }} />
+        <ImageScanner />
       </View>
     </View>
   );
